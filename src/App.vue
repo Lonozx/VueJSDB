@@ -138,11 +138,13 @@ export default {
   align-items: center;
   gap: 10px;
   font-size: 20px;
+  flex-wrap: wrap;
 }
 .container__searchbar{
   display: flex;
   gap: 20px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .card{
   border: 1px black solid;
@@ -152,7 +154,7 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  
+  flex-wrap: wrap;
 }
 .card-slice{
   display: flex;
